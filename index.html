@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="en2">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Intro shortening-api maketi</title>
   <!-- STYLESHEET -->
-
   <!-- google-fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +13,6 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <!-- site-header -->
   <header class="site-header">
     <div class="site-header__container container">
@@ -22,7 +20,6 @@
       <a href="#" class="site-header__logo logo">
         <img class="logo__img" src="logo-rasm.svg" alt="Shortly logo" width="120" height="33">
       </a>
-
       <nav class="site-header__sitenav sitenav">
            <ul class="sitenav__list">
              <li class="sitenav__item"><a href="#" class="sitenav__link">Features</a></li>
@@ -30,14 +27,12 @@
              <li class="sitenav__item"><a href="#" class="sitenav__link">Resources</a></li>
            </ul>
       </nav>
-
       <div class="site-header__auth">
         <a href="#" class="site-header__login-link">Login</a>
         <a href="" class="button button--small">Sign Up</a>
       </div>
     </div>
   </header>
-
   <main class="main-content">
     <!-- hero -->
     <div class="hero">
@@ -49,22 +44,19 @@
         </div>
       </div>
     </div>
-
-
     <div class="index-url-shortener-features-wrapper">
       <div class="index-url-shortener-features-wrapper__url-shortener">
         <!-- url-shortener-form -->
         <section class="url-shortener">
           <div class="container">
             <h2 class="visually-hidden">Url shortener</h2>
-            <form action="https://echo.htmlacademy.ru" method="post" class="url-shortener__form">
+            <form action="https://echo.htmlacademy.ru" method="post" class="url-shortener__form js-url-shortener-form">
               <div class="url-shortener__input-wrapper">
                 <input type="url" placeholder="Shorten a link hero..." name="url" aria-label="Url input" required class="url-shortener__input">
                 <div class="url-shortener__error-msg">Please add a link</div>
               </div>
               <button class="button button--rectangle-big url-shortener__submit" type="submit">Shorten It!</button>
             </form>
-
             <div class="url-shortener__results">
               <div class="url-shortener__result">
                 <div class="url-shortener__original-link">https://www.frontendmentor.io lorem</div>
@@ -86,11 +78,9 @@
         </section>
       </div>
     </div>
-
   </main>
-  <!-- ass -->
 
 
-  <script src="js/main.js"></script>
+  <script src="main.js"></script>
 </body>
 </html>
