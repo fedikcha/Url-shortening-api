@@ -364,13 +364,18 @@ select:-webkit-autofill:focus{
   min-width: 103px;
 }
 
-url:not(:focus):not(:placeholder-shown):valid {
+.url-shortener__copy-button-copied{
+  background-color: #3a3054;
+}
+
+.url:not(:focus):not(:placeholder-shown):valid {
   border-color: green;
 }
 
-url:not(:focus):not(:placeholder-shown):invalid {
+.url:not(:focus):not(:placeholder-shown):invalid {
   border-color: red;
 }
+
 
 url:focus + .validation-error,
 url:valid + .validation-error,
