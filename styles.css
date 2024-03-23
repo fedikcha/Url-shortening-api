@@ -382,3 +382,24 @@ url:valid + .validation-error,
 url:placeholder-shown + .validation-error {
   display: none;
 }
+
+
+/* index-features */
+/* .index-features {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: var(--light-bg);
+}
+
+.index-features__top {
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index-features__title {
+  color: red;
+}
+.index-features__top-info {
+  color: red;
+  background-color: gold;
+} */
